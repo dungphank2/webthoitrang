@@ -1,7 +1,7 @@
 # .gitignore file created for free with Tower (https://www.git-tower.com/)
 # For suggestions or improvements please contact us using support@git-tower.com
 # Generated on 2026-05-22
-# Includes: vscode, javascript, node, html, css, typescript
+# Includes: vscode, javascript, node, html, css, typescript, webstorm
 
 ### Universal ###
 # Common files that should be ignored in all projects
@@ -180,3 +180,24 @@ out/
 *.tsbuildinfo
 node_modules/
 dist/
+
+### Webstorm ###
+# WebStorm IDE specific files and settings
+
+# WebStorm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+.idea_modules/
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+.idea/jsLibraryMappings.xml
+.idea/watcherTasks.xml
+.idea/jsLinters/
+.idea/inspectionProfiles/
+.idea/codeStyles/
